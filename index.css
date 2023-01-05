@@ -1,0 +1,38 @@
+/* fonts */
+@font-face {
+    font-family: GeorgiaNormal;
+    src: url(./fonts/Georgia.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: GeorgiaBold;
+    src: url(./fonts/Georgia.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url(./fonts/AvenirLTStd-Black.otf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: LatoNormal;
+    src: url(./fonts/LatoLatin-Regular.ttf);
+}
+
+@font-face {
+    font-family: LatoMedium;
+    src: url(./fonts/LatoLatin-Medium.ttf);
+}
+
+@font-face {
+    font-family: LatoSemiBold;
+    src: url(./fonts/LatoLatin-Semibold.ttf);
+}
+
+/* main */
+.header {
+    border-bottom: 1px solid #000;
+}
