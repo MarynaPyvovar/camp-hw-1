@@ -12,136 +12,213 @@
     <title>Alivio</title>
   </head>
   <body>
-    <header class="header">
-      <a class="header_logo">Alivio</a>
+    <header>
+      <div class="container header">
+        <a class="logo logo--header">Alivio</a>
       <nav>
-        <ul class="header_nav">
-          <li>
-            <a>Why Alivio</a>
+        <ul class="header_nav list">
+          <li class="header_nav-item">
+            <a class="link">Why Alivio</a>
           </li>
-          <li>
-            <a>Solutions</a>
+          <li class="header_nav-item">
+            <a class="link">Solutions</a>
           </li>
-          <li>
-            <a>Community</a>
+          <li class="header_nav-item">
+            <a class="link">Community</a>
           </li>
-          <li>
-            <a>Pricing</a>
+          <li class="header_nav-item">
+            <a class="link">Pricing</a>
           </li>
         </ul>
-        <button>SIgn in</button>
-        <button>Start trial</button>
       </nav>
+      <div class="header_button-container">
+          <a class="header_nav-item link">Sign in</a>
+          <button class="header_button button">Start trial</button>
+        </div>
+      </div>
     </header>
     <main>
       <section class="hero">
-        <h1>Be aware, Manage well!</h1>
-        <p>
+        <div class="hero_wrapper">
+          <h1 class="hero_title">Be aware, Manage well!</h1>
+        <p class="hero_text">
           Everyone experiences stress in different ways. Let Alivio guide you,
           in a personalized journal experience, to overcome your stress.
         </p>
-        <button>Find your way</button>
+        <button class="button">Find your way</button>
+        </div>
       </section>
-      <section>
-        <h2>How it works</h2>
-        <div>
-          <p>Understand & Release the stress in 3 steps</p>
-          <p>
+      <section class="container how-it-works">
+          <h2 class="container_title">How it works</h2>
+        <div class="how-it-works_description">
+          <h3 class="container_subtitle">Understand & Release the stress in 3 steps</h3>
+          <p class="how-it-works_text">
             Alivio offers as many journals it takes, tackling different areas
             such as anxiety, overwhelmedness, sadness, or anger, and a variety
             of personal causes, to help you become aware of your emotions, and
             guide you in how to manage stress.
           </p>
         </div>
-        <ul>
-          <li>
-            <h3><span>01</span>Personalize</h3>
-            <p>
+        <ul class="card list">
+          <li class="card_item">
+            <div class="card_title-wrapper">
+              <span class="card_number">01</span>
+              <h4 class="card_title">Personalize</h4>
+            </div>
+            <p class="card_description">
               Answer a quick survey about how you express yourself, what causes
               you stress, and what area would you like to work on. This way, we
               can fully personalize your journal!
             </p>
-            <img src="./images/howIt1.jpg" alt="laptop" />
+            <img class="card_image" src="./images/howIt1.jpg" alt="laptop" />
           </li>
-          <li>
-            <h3><span>02</span>Write & Understand</h3>
-            <p>
+          <li class="card_item">
+            <div class="card_title-wrapper">
+              <span class="card_number">02</span>
+              <h4 class="card_title">Write & Understand</h4>
+            </div>
+            <p class="card_description">
               Write, draw, reflect, understand. Alivio will guide you through
               the prompts and will help you manage your stress!
             </p>
-            <img src="./images/howIt2.jpg" alt="diary" />
+            <img class="card_image" src="./images/howIt2.jpg" alt="diary" />
           </li>
-          <li>
-            <h3><span>03</span>Alivio</h3>
-            <p>
+          <li class="card_item">
+            <div class="card_title-wrapper">
+              <span class="card_number">03</span>
+              <h4 class="card_title">Alivio</h4>
+            </div>
+            <p class="card_description">
               Now you are aware, and have a way to manage and overcome your own
               stress. What are you waiting for? Alivio today!
             </p>
-            <img src="./images/howIt3.jpg" alt="happy girl" />
+            <img class="card_image" src="./images/howIt3.jpg" alt="happy girl" />
           </li>
         </ul>
       </section>
-      <section>
-        <h2 class="visually-hidden">Success story</h2>
+      <section class="story">
+          <h2 class="visually-hidden">Success story</h2>
         <div>
-          <p>Let`s hear about Kaila`s success story</p>
-          <p>See how well Alivio works in a real customer’s life.</p>
-          <button>Let`s get started</button>
+          <h3 class="container_subtitle container_subtitle--accent">Let`s hear about Kaila`s success story</h3>
+          <p class="story_text">See how well Alivio works in a real customer’s life.</p>
+          <button class="button">Let`s get started</button>
         </div>
-        <!-- <video></video> -->
-        <section>
-          <div>
-            <h2>Our product</h2>
-            <p>You tell us your stress, We make your diary</p>
-            <p>
+        <div class="story_video-wrapper">
+          <img class="story_video" src="./images/video-stub.png" alt="here will be video soon..."/>
+          <div class="story_video-shadow"></div>
+          <svg class="story_video-icon" width="81" height="81">
+            <use href="./images/icons.svg#icon-play">
+            </use>
+          </svg>
+        </div>
+      </section>
+      <section class="container product">
+        <div class="product_example-position">
+          <div class="product_wrapper">
+            <div class="product_info-wrapper">
+              <h2 class="container_title">Our product</h2>
+            <h3 class="container_subtitle">You tell us your stress, We make your diary</h3>
+            <p class="product_text">
               Everyone experiences it, and in different ways. Let Alivio guide
               you, in a personalized journal experience, to overcome your
               stress.
             </p>
-            <button>Find your way</button>
-          </div>
-          <div>
-            <img src="./images/product.png" alt="girl as example" />
-            <div>
-              <h3>Customize For</h3>
-              <img src="./images/product.png" alt="girl as example" />
-              <h4>Mikayla</h4>
-              <ul>
-                Your custom content
-                <li>Understand Your Stress</li>
-                <li>Anger Management</li>
-              </ul>
+            <button class="button">Find your way</button>
             </div>
-          </div>
-        </section>
+            <div class="product_image-wrapper">
+              <img class="product_image" src="./images/product-image.png" alt="girl as example" width="428px"/>
+            </div>
+            
+        </div>
+        <div class="example">
+              <h3 class="example_title">Customize For</h3>
+              <img class="example_image" src="./images/example-image.png" alt="girl as example" />
+              <h4  class="example_name">Mikayla</h4>
+              <h4 class="example_list-title">Your custom content</h4>
+              <ul class="example_list">
+                <li class="example_list-item">Understand Your Stress</li>
+                <li class="example_list-item">Anger Management</li>
+              </ul>
+        </div>
+        </div>
       </section>
     </main>
     <footer>
-        <a class="footer_logo">Logo - Alivio</a>
+      <div class="container footer">
+        <div class="footer_nav-wrapper">
+          <a class="logo logo--footer link">Alivio</a>
       <nav>
-        <ul class="footer_nav">
+        <ul class="footer_nav list">
           <li>
-            <a>Why Alivio</a>
+            <a class="link footer_nav-item">Why Alivio</a>
           </li>
           <li>
-            <a>Solutions</a>
+            <a class="link footer_nav-item">Solutions</a>
           </li>
           <li>
-            <a>Community</a>
+            <a class="link footer_nav-item">Community</a>
           </li>
           <li>
-            <a>Pricing</a>
+            <a class="link footer_nav-item">Pricing</a>
           </li>
         </ul>
-        <ul>
-            <li><a href=""><svg></svg></a></li>
-            <li><a href=""><svg></svg></a></li>
-            <li><a href=""><svg></svg></a></li>
+        </div>
+        <ul class="social list">
+            <li>
+              <a href="https://www.facebook.com/" class="social_item link">
+                <svg class="social_icon" width="32" height="30">
+                  <use href="./images/icons.svg#icon-facebook">
+                  </use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/" class="social_item social_item--colored link">
+                <svg class="social_icon" width="32" height="30">
+                  <use href="./images/icons.svg#icon-instagram">
+                  </use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/" class="social_item link">
+                <svg class="social_icon" width="32" height="30">
+                  <use href="./images/icons.svg#icon-twitter">
+                  </use>
+                </svg>
+              </a>
+            </li>
         </ul>
-        <ul>Discover our solutions
-            <li><svg></svg><svg></svg></li>
-            <li><svg></svg><svg></svg></li>
+        <div>
+          <h4 class="apps_title">Discover our solutions</h4>
+          <ul class="apps list">
+            <li>
+              <a href="https://play.google.com/store/apps" class="link apps_item">
+                <svg class="apps_icon" width="40" height="37">
+                  <use href="./images/icons.svg#icon-google-play">
+                  </use>
+                </svg>
+                <svg width="108" height="28">
+                  <use href="./images/icons.svg#icon-text-gp">
+                  </use>
+                </svg>
+              </a>
+              </li>
+            <li>
+              <a href="https://www.apple.com/store" class="link apps_item">
+                <svg class="apps_icon" width="27" height="30">
+                  <use href="./images/icons.svg#icon-apple">
+                  </use>
+                </svg>
+                <svg width="110" height="32">
+                  <use href="./images/icons.svg#icon-text-apple">
+                  </use>
+                </svg>
+              </a>
+            </li>
         </ul>
+        </div>
+        </div>
     </footer>
   </body>
 </html>
